@@ -1,0 +1,14 @@
+<html>
+    
+    {% block content %}
+
+    <body>
+        {% for item in cars%}
+            <h3>{{item.model}} - {{item.brand}}</h3>
+         {% endfor %}
+    </body>
+ 
+    {% endblock  %}
+        
+
+</html> 
